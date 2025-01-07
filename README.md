@@ -11,5 +11,4 @@ These are for atmega328p
 
 * Change avrdude COM port   (--Defult is COM8--)
 
-    avrdude -F -V -c arduino -p ATMEGA328P -P COM8 -b 115200 -U flash:w:led.hex
-                                              ^^^^
+    -avrdude -F -V -c arduino -p ATMEGA328P -P `COM8` -b 115200 -U flash:w:led.hex
